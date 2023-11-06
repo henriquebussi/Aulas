@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background-color: #FFF;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-color: black;
+    border: solid;
+}
+
+section{
+    background-color: #ffeba4;
+    width: 1000px;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    border-radius: 500px;
+    text-align: center;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.pesquisa input{
+    border-radius: 15px;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+#lupa{
+    background: url(lupa.png) no-repeat right / 1.3em;
+    padding-left: 1.3em;
+    background-color: #cfcfcf;
+}
+
+.corpo{
+    background-color: #FFD43E;
+    height: 86.4vb;
+    width: 100%;
+}
+
+.brasil, .shop, .user{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.barraD {
+    position: absolute;
+    bottom: 0;
+    left: 68.1%;
+}
+
+.barraE {
+    position: absolute;
+    bottom: 0;
+    right: 72%;
+}
+
+.mm{
+    position: absolute;
+    right: 42%;
+    margin-top: 10px;
+}
