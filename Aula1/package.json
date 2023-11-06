@@ -1,0 +1,14 @@
+{
+  "name": "semestre2",
+  "version": "1.0.0",
+  "description": "projeto para usar nas aulas, e e e vem aq q c vai ver uel uel uel te levo pro motel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "henriquebraboxd",
+  "license": "ISC",
+  "dependencies": {
+    "tempo-atras-pt-br": "^1.0.5"
+  }
+}

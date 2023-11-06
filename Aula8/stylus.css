@@ -1,0 +1,16 @@
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    min-height: 100%;
+    width: 1050px;
+}
+
+#welcome{
+    margin-top: 30%;
+    margin-left: 52%;
+}
+
+#others{
+    margin-top: 20%;
+    margin-left: 52%;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<style>
+    #Manut{
+        font-size: medium;
+        background-color: chocolate;
+    }
+    #adm{
+       font-size: medium; 
+    }
+    #lado{
+    }
+    #red{
+        background-color: red;
+    }
+    .forms{
+        background-color:lightblue;
+        border-radius: 10px;
+        border: 10px;
+        border-color: aquamarine;
+    }
+
+</style>
+<body>
+    <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+            <div class="col"></div>
+            <div class = forms>
+
+                    <h1 id="Manut">MANUTAÇÃO DE USUARIOS DO SISTEMA INTERNO</h1> 
+                    <h1 id="adm"><strong>Sistema de Gestão Acadêmica</strong></h1> <br>
+                <div class="mb-3"></div>
+                        <label id="lado" class="form-label">Login </label> 
+                        <input type="text" class="form-control"> <br>
+                <div class="mb-3">
+                    <label id="lado">Senha</label>
+                    <input type="password" class="form-control"> <br>
+                </div>
+
+                    <label id="lado">Status</label> 
+                    <select class="form-select">
+                        <option selected></option>
+                    <option value="" class="form-label">Inativo</option>
+                    <option value="" class="form-label">Nativo</option>  
+                    </select> <br>
+
+                    <label class="form-label">Tipo</label> <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Técnico
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Professor
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Aluno
+                </div> <br> <br>
+
+                    <label id="lado">Data Criação</label> <br>
+                    <input type="date" class="form-control"> <br> <br>
+
+                    <label for="">Perfil: </label> <br>
+                    <div class="form-check form-check-inline"> <br>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Administrador
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Convidado
+                    </div> <br>
+
+                    <label>Observação</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea> <br> <br>
+
+                    <label id="lado"> </label>
+                    <label>Módulos</label> <br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Compras
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Biblioteca
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Academico
+                        </label>
+                      </div> <br>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Documentação
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Recursos Humanos
+                        </label>
+                      </div> 
+
+                    <button type="submit">Cadastrar</button>
+                    <button type="submit" class="btn btn-primary" id="red">Cadastrar</button>
+                    <button type="reset" class="btn btn-primary">Excluir</button>
+            </div>
+            </div>
