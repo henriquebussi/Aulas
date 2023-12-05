@@ -1,0 +1,17 @@
+.pagina {
+    width: 100vh;
+    height: 100vh;
+}
+
+button {
+    background-color: purple;
+    border: 0;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+div .escolha1, div .escolha2 {
+    padding: 20px;
+    width: fit-content;
+}
