@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.corpo {
+    background-color: #FFD43E;
+    height: 87vb;
+    width: 100%;
+}
+.card {
+    height: 500px;
+    display: flex;
+    position: absolute;
+    top: 225px;
+}
+
+.btn-primary {
+    background-color: #FFD43E !important;
+    border: none !important;
+}
+
+h3.text-dark {
+    color: rgb(83, 40, 2) !important;
+}
+
+.teste {
+    background-color: #FFD43E;
+}
+

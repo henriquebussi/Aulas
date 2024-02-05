@@ -27,9 +27,10 @@
     border: 0cm;
 }
 
-body{
+body {
     background-color: #FFD43E;
 }
+
 .corpo {
     background-color: #FFD43E;
     height: 87vb;
@@ -50,84 +51,84 @@ body{
     top: 5%;
 }
 
-.barralateralesquerda{
+.barralateralesquerda {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.barralateraldireita{
+.barralateraldireita {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.slid1{
+.slid1 {
     width: 800px;
     border-radius: 150px;
     background-color: #ffeba4;
     padding: 30px;
-    }
+}
 
-.slid2{
+.slid2 {
     width: 300px;
     border-radius: 150px;
     background-color: #ffeba4;
     padding: 30px;
-  
+
 }
 
-.slid3{
+.slid3 {
     width: 550px;
     border-radius: 150px;
     background-color: #ffeba4;
     padding: 30px;
- 
+
 }
 
-.carousel{
+.carousel {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    top: 60px; 
+    top: 60px;
 }
 
-.corpoproduto{
+.corpoproduto {
     background-color: red;
     height: 87vb;
     width: 100%;
 }
 
-.corpocontato{
+.corpocontato {
     background-color: rgb(135, 37, 37);
     height: 87vb;
     width: 100%;
 }
 
-.mnm{
+.mnm {
     border: black 30px solid;
 }
 
 /* produtos.html */
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 250px; 
+    top: 250px;
     left: 250px;
 
 }
 
-.produto{
+.produto {
     border: rgb(83, 40, 2) 3px solid;
     background-color: rgb(124, 99, 78);
 }
 
-#produtoss{
+#produtoss {
     text-align: center;
     color: rgb(253, 253, 253);
     font-size: 50px;
@@ -138,27 +139,27 @@ body{
 
 /* contatos.html */
 
-.formularioContato { 
+.formularioContato {
 
-    max-width:600px; 
-    height:auto; 
-    float:none; 
-    margin:auto; 
-    padding:1em; 
-    margin-bottom:1em; 
-    border-radius:6px; 
-    background:rgb(135, 37, 37); 
-    position:relative; 
+    max-width: 600px;
+    height: auto;
+    float: none;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 6px;
+    background: rgb(135, 37, 37);
+    position: relative;
     top: 100px
 }
 
 
 
-.formularioContato label  { 
+.formularioContato label {
 
-    float:left; 
-    width:100%; 
-    margin-bottom:1.2em; 
+    float: left;
+    width: 100%;
+    margin-bottom: 1.2em;
 
 }
 
@@ -168,75 +169,88 @@ body{
     float: left;
     color: #999;
     margin-bottom: 6px;
-    font-family: ; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.formularioContato label input  { 
+.formularioContato label input {
 
-    font-size:1em; 
-    color:#555; 
-    font-family:'open_sansregular'; 
-    outline:none; 
-    border:1px #dee5ed solid; 
-    border-radius:4px; 
-    padding:0.6em; 
-    transition: 0.3s;  
-
-}
-
-.formularioContato label select { 
-
-    font-size:1em; 
-    color:#555; 
-    border:1px #dee5ed solid; 
-    border-radius:4px; 
-    padding:0.6em; 
-    outline:none; 
-    transition: 0.3s;  
+    font-size: 1em;
+    color: #555;
+    font-family: 'open_sansregular';
+    outline: none;
+    border: 1px #dee5ed solid;
+    border-radius: 4px;
+    padding: 0.6em;
+    transition: 0.3s;
 
 }
 
-.formularioContato label textarea { 
+.formularioContato label select {
 
-    font-size:1em; 
-    color:#555; 
-    border:1px #dee5ed solid; 
-    border-radius:4px; 
-    padding:0.6em; 
-    outline:none;
-    transition: 0.3s;   
+    font-size: 1em;
+    color: #555;
+    border: 1px #dee5ed solid;
+    border-radius: 4px;
+    padding: 0.6em;
+    outline: none;
+    transition: 0.3s;
 
 }
 
-.formularioContato button.btn-envia { 
+.formularioContato label textarea {
 
-    background-color:rgb(37,174,230); 
-    width:100%; display:block; 
-    margin:auto; cursor:pointer; 
-    border-radius:4px;  
-    border:0; 
-    padding:0.8em 0em; 
-    color:#fff; 
-    font-size:1.3em; 
-    font-family:'open_sansbold'; 
+    font-size: 1em;
+    color: #555;
+    border: 1px #dee5ed solid;
+    border-radius: 4px;
+    padding: 0.6em;
+    outline: none;
+    transition: 0.3s;
+
+}
+
+.formularioContato button.btn-envia {
+
+    background-color: rgb(37, 174, 230);
+    width: 100%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    padding: 0.8em 0em;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    transition: 0.3s;   
+    transition: 0.3s;
 
 }
 
-.formularioContato button.btn-envia:hover { 
+.formularioContato button.btn-envia:hover {
 
-    background-color:#333; 
+    background-color: #333;
 
 }
 
 
 /* Login.html */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.corpo {
+    background-color: #FFD43E;
+    height: 87vh; /* Corrigido de 87vb para 87vh */
+    width: 100%;
+}
+
 .card {
+    height: 500px;
     display: flex;
-    justify-content: space-evenly;
     position: absolute;
     top: 225px;
 }
